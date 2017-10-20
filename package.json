@@ -1,7 +1,7 @@
 {
   "name": "ivi.ru-test",
   "date": "2017.10.19",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The first Russian free video provider with a licensed full-length content.",
   "author": {
     "name": "bas"
@@ -28,6 +28,12 @@
         "normal": "normal.png",
         "active": "active.png"
       }
-    }
+    },
+    "options": [
+      {
+        "name": "partner",
+        "desc": "partner server url"
+      }
+    ]
   }
 }
